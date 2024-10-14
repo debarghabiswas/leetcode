@@ -1,4 +1,3 @@
-import java.util.*;
 public class pascalTriangle{
     public List<List<Integer>> generateList(int numRows){
         List<List<Integer>> triangle = new ArrayList<>();
@@ -32,7 +31,4 @@ public class pascalTriangle{
         }
         return triangle;
     }
-    // public static void main(String[] args) {
-    //     pascalTriangle ob = new pascalTriangle();
-    // }
 }
